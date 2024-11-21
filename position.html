@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position-fixed</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        body{
+            background-image: url("./girl.jpg.jpg");
+            height: 80vh;
+            width: 90vw;
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        .head-title{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .head-r2{
+            display: flex;
+        }
+        .bi-clock-fill{
+            font-size: 35px;
+        }
+        .time span{
+            display: block;
+        }
+        .head-r3{
+            display: flex;
+        }
+        .bi-telephone{
+            font-size: 35px;
+        }
+        .address span{
+            display: block;
+        }
+        .head-r4 span{
+            margin-right: 10px;
+            font-size: 20px;
+            background-color: rgb(183, 183, 225);
+            color: blue;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        nav{
+            border: 1px solid lightblue;
+            margin-top: 40px;
+            background-color: rgba(213, 214, 228, 0.2);
+            color: white;
+            border: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+       .btn-nav{
+        display: flex;
+        justify-content: space-between;
+        margin-right: px;
+        margin-left: px;
+        align-items: center;
+        padding: 10px;
+       }
+       #certificate{
+        background-color: rgb(76, 81, 231);
+        color:white;
+        padding: 10px;
+        
+       }
+       main{
+        margin-top: 100px;
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 500px;
+        color: white;
+       }
+       .main-title{
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 10px;
+       }
+       .main-subtitle{
+        font-size: 25px;
+       }
+       .info{
+        font-size: 20px;
+        margin-top: 10px;
+       }
+       .btn{
+        margin-top: 20px;
+       }
+       .get{
+        padding: 20px;
+        background-color: rgb(76, 81, 231);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+       }
+       .view{
+        padding: 20px;
+        width: 250px;
+        background-color: white;
+        color: rgb(76, 81, 231);
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+       }
+       .col-1{
+        height: 400px;
+        width: 50%;
+        background-image: url("./girl-bookd.jpg.jpg");
+        background-size: cover;
+        border-radius: 5px;
+       }
+       section{
+        margin-top: 200px;
+        background-color: white;
+        border-radius: 5px;
+        margin-left: -4px;
+        display: flex;
+        width: 109%;
+       }
+       .section-subtitle{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 30px;
+        margin-top: 100px;
+        width: 400px;
+       }
+       .learn{
+        color: blue;
+        font-size: 15px;
+       }
+       .benefits{
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: -10px;
+       }
+       .card{
+        background-color: rgb(236, 244, 245);
+        padding: 10px;
+        border-radius: 10px;
+        width: 450px;
+        margin-bottom: 10px;
+       }
+       .courses{
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 5px;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="head-r1">
+            <div class="head-title">ACADEMIA</div>
+            <div class="head-subtitle">online education & leading</div>
+        </div>
+        <div class="head-r2">
+            <div class="bi bi-clock-fill"></div>
+            <div class="time">
+                <span>Monday-Friday</span>
+                <span>08:00Am-08:00Pm</span>
+            </div>
+        </div>
+        <div class="head-r3">
+            <div class="bi bi-telephone"></div>
+            <div class="address">
+                <span>Call Us</span>
+                <span>+238 7899889889</span>
+            </div>
+        </div>
+        <div class="head-r4">
+            <span class="bi bi-facebook"></span>
+            <span class="bi bi-twitter-x"></span>
+            <span class="bi bi-instagram"></span>
+            <span class="bi bi-browser-chrome"></span>
+        </div>
+    </header>
+    <nav>
+        <div class="btn-nav">
+            <span>Home</span>
+            <span>All courses</span>
+            <span>about</span>
+            <span>Team</span>
+            <span>Pricing</span>
+            <span>Gernal</span>
+            <span>Gernal</span>
+            <span>contact</span>
+            <span id="certificate">GET CERTIFICATE</span>
+        </div>
+    </nav>
+    <main>
+        <div class="main-subtitle">welcome to Arena</div>
+        <div class="main-title">BEST ONLINE EDUCATION EXPERTISE</div>
+        <div class="info">for for away,behind word moutains,far from the countries volka,and consultania there live the blid texts</div>
+        <div class="btn">
+            <button class="get">GET STARTEDNOW <span class="bi bi-arrow-right"></span></button>
+            <button class="view">VIEW COURSE <span class="bi bi-arrow-right"></span></button>
+        </div>
+    </main>
+    <section>
+        <div class="col-1">
+
+        </div>
+        <div class="col-2">
+            <div class="section-subtitle">
+                <div class="learn">LEARN ANYTHING</div>
+                <div class="benefits">benefits of online learning expertise</div>
+            </div>
+            <div>
+                <div class="card">
+                    <div class="courses">Online Coursec</div>
+                    <div>for for away,behind word moutains,far from the countries volka,and consultania there live the blid texts</div>
+                </div>
+                <div class="card">
+                    <div class="courses">Earn A Certificate</div>
+                    <div>for for away,behind word moutains,far from the countries volka,and consultania there live the blid texts</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
